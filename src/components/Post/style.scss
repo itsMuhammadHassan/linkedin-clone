@@ -1,0 +1,30 @@
+.post {
+    margin-top: 10px;
+    border: 1px solid rgba($color: #000000, $alpha: 0.08);
+    padding: 10px;
+    border-radius: 8px;
+
+    .post__head {
+        display: flex;
+        margin-bottom: 8px;
+
+        .post__headAvatar {
+            margin-right: 10px;
+            text-transform: uppercase;
+        }
+
+        .post__descWrapper {
+            .post__name {
+                font-weight: 500;
+                font-size: 18px;
+                text-transform: capitalize;
+            }
+
+            .post__desc {
+                font-size: 14px;
+                color: #292929;
+            }
+        }
+    }
+
+}

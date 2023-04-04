@@ -1,0 +1,71 @@
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login__formWrapper {
+        max-width: 800px;
+        margin: auto;
+
+        .login__linkedinWrapper {
+            display: flex;
+            align-items: center;
+
+            .login__linkedinIcon {
+                height: 50px;
+            }
+
+            .login__linkedinText {
+                font-size: 40px;
+                font-weight: 600;
+                margin-right: 4px;
+            }
+        }
+
+        .login__form {
+            max-width: 600px;
+            width: 100%;
+            margin: 20px auto 0;
+
+            .login__formField {
+                margin-bottom: 12px;
+                width: 400px;
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+
+                input {
+                    height: 35px;
+                    border-radius: 8px;
+                    background-color: aliceblue;
+                    outline: none;
+                    width: 100%;
+                    border: 1px solid lightblue;
+                    padding: 4px 8px;
+                    font-family: 'Roboto' !important;
+                }
+
+                button {
+                    background-color: aliceblue;
+                    border: 1px solid lightblue;
+                    height: 35px;
+                    width: 200px;
+                    max-width: 100%;
+                    text-align: center;
+                    border-radius: 8px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .login__noAccount {
+            text-align: center;
+
+            span {
+                color: rgb(15, 144, 187);
+                cursor: pointer;
+            }
+        }
+    }
+}
