@@ -9,7 +9,7 @@
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.15",
     "@reduxjs/toolkit": "^1.8.1",
-    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^14.1.1",
     "firebase": "^9.19.1",
